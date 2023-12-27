@@ -13,8 +13,8 @@ struct ContentView: View {
             MapView()
                 .frame(height: 300)
             CircleImageView()
-                .offset(y: -60)
-                .padding(.bottom, -60)
+                .offset(y: -130)
+                .padding(.bottom, -130)
             VStack (alignment: .leading) {
                 Text("Johnmark Banisilon")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
