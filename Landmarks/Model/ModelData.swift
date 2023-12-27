@@ -8,7 +8,11 @@
 import Foundation
 
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
+
 
 
 func load<T>(_ filename: String) -> T where T: Decodable {
